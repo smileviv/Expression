@@ -1,0 +1,203 @@
+body {
+    text-align: center;
+     background-color: #596164;
+    color:white;
+}
+
+p {
+    display: inline;
+    font-size: 15px;
+}
+
+/*navbar*/
+.properties{
+    position: fixed;
+}
+
+.nav-title{
+    font-size:20px;
+}
+
+
+/*top-container*/
+
+.top-container {
+    position: relative;
+    animation: animate 20s ease-in-out infinite;
+    background-size: cover;
+    background-position: center;
+    background-color: aquamarine;
+    margin-bottom: 0;
+    
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-image: url(images/b1.png);
+    }
+
+    25% {
+        background-image: url(images/b2.png);
+    }
+
+    50% {
+        background-image: url(images/b3.png);
+    }
+
+    75% {
+        background-image: url(images/b4.png);
+    }
+}
+
+
+
+.writeup {
+    text-align:center;
+    margin-bottom:9rem;
+    padding:25% 0;
+    font-size:5rem;
+    color:white;
+
+}
+
+.fest-name {
+    font-size: 4.1rem;
+    font-family: "Bro Rintto Regular";
+    font-weight: bold;
+}
+
+/*
+.footer {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin: 26rem auto 0 auto;
+
+}
+
+*/
+
+
+/*committee-discription*/
+
+
+.main {
+    width: 50%;
+    height: 50%;
+    margin:7% 25% 3%;
+}
+
+.text {
+    padding:5% 8% 10%;
+}.title {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 5%;
+    
+}
+
+.discription{
+    font-size:1.3rem;
+    line-height:1;
+   
+}
+
+/*events*/
+#event{
+    background-color: #868f96;
+    color:white;
+}
+
+
+.events{
+    text-align: center;
+    padding:5% 0 5%;
+}
+
+.committee-events{
+    padding:3% 10% 6%;
+}
+
+.event-title{
+    padding:3% 0;
+    font-size:2.3rem;
+}
+
+.event-text{
+    text-align: right;
+    padding:0 2%;   
+}
+
+.informal{
+    padding:5% 9%;
+    font-size:2.3rem;
+}
+
+/*footer*/
+
+
+
+.bottom {
+    padding:7% 10%;
+    text-align: center;
+    font-size :2rem;
+    line-height: 1;
+}
+
+
+/*social-media*/
+#social-media{
+    background-color: #868f96;
+    color:white;
+}
+
+.bottom-container {
+    text-align: center;
+    padding: 8% 0;
+    font-size: 20px;
+}
+
+
+@media (max-width: 1200px ){
+    .writeup {
+        font-size: 2rem
+    }
+
+    .fest-name {
+        font-size: 2.5rem;
+    }
+    .main{
+        position: relative;
+        right:15.375%;
+        width:80%;
+        height:80%;
+    }
+    .title{
+       font-size:1.9rem;
+       
+}
+    .discription{
+        font-size:1.1rem;
+    }
+    
+    .event-title{
+        font-size:1.3rem;
+    }
+    .event-text{
+        font-size:1.1rem;
+    }
+    .informal{
+        font-size:1.5rem;
+        padding:5% 5%;
+    }
+    
+    .bottom{
+        font-size:1.3rem;
+        padding:9% 5%;
+    }
+}
+
+    
+    
