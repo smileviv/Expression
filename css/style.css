@@ -110,29 +110,34 @@ p {
     color:white;
 }
 
+.committee-events{
+    text-align: center;
+    padding:5% 0;
+    
+}
 
 .events{
     text-align: center;
-    padding:5% 0 5%;
-}
-
-.committee-events{
-    padding:3% 10% 6%;
+    padding:3% 0 3%;
+    height:400px;
 }
 
 .event-title{
-    padding:3% 0;
+    padding:5% 0;
     font-size:2.3rem;
 }
 
 .event-text{
     text-align: right;
-    padding:0 2%;   
+    padding:0 2%;
+    font-size:1.3rem
 }
 
 .informal{
-    padding:5% 9%;
-    font-size:2.3rem;
+    text-align: center;
+
+    padding:3% 0 5% 0;
+    font-size:2.1rem;
 }
 
 /*footer*/
@@ -182,20 +187,32 @@ p {
         font-size:1.1rem;
     }
     
+    .events{  
+        padding:14% 10%;   
+    }
+    
     .event-title{
         font-size:1.3rem;
     }
+    
     .event-text{
-        font-size:1.1rem;
+        font-size:0.91rem;
     }
+    
     .informal{
-        font-size:1.5rem;
-        padding:5% 5%;
+        font-size:1.4rem;
+        text-align: center;
+         padding:5% 0 8%;
     }
     
     .bottom{
-        font-size:1.3rem;
-        padding:9% 5%;
+        font-size:1.2rem;
+        padding:25% 6%;
+        line-height: 1;
+    }
+    
+    .bottom-container{
+        padding: 12% 0;
     }
 }
 
