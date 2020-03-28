@@ -15,6 +15,10 @@ p {
 
 /*navbar*/
 .properties{
+     width:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
     position: fixed;
 }
 
@@ -25,8 +29,17 @@ p {
 
 /*top-container*/
 
+#home{
+     width:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    
+}
+
 .top-container {
     position: relative;
+     
     animation: animate 20s ease-in-out infinite;
     background-size: cover;
     background-position: center;
@@ -75,7 +88,12 @@ p {
 
 /*committee-discription*/
 
-
+#Committee-Discription{
+     width:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+}
 .main {
     width: 50%;
     height: 50%;
@@ -100,6 +118,10 @@ p {
 
 /*events*/
 #event{
+     width:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
     background-color: #868f96;
     color:white;
 }
@@ -136,6 +158,12 @@ p {
 
 /*footer*/
 
+#footer{
+     width:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+}
 
 
 .bottom {
@@ -148,6 +176,10 @@ p {
 
 /*social-media*/
 #social-media{
+     width:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
     background-color: #868f96;
     color:white;
 }
