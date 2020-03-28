@@ -1,11 +1,12 @@
 body {
     text-align: center;
-     background-color: #596164;
-    color:white;
-    width:100%;
-    margin:0px;
-    padding:0px;
-    overflow-x:hidden;
+    background-color: #596164;
+    color: white;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
 }
 
 p {
@@ -14,25 +15,38 @@ p {
 }
 
 /*navbar*/
-.properties{
+.properties {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     position: fixed;
 }
 
-.nav-title{
-    font-size:20px;
+.nav-title {
+    font-size: 20px;
 }
 
 
 /*top-container*/
 
+#home {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
 .top-container {
     position: relative;
+
     animation: animate 20s ease-in-out infinite;
     background-size: cover;
     background-position: center;
     background-color: aquamarine;
     margin-bottom: 0;
-    
+
 }
 
 @keyframes animate {
@@ -58,11 +72,11 @@ p {
 
 
 .writeup {
-    text-align:center;
-    margin-bottom:9rem;
-    padding:25% 0;
-    font-size:5rem;
-    color:white;
+    text-align: center;
+    margin-bottom: 9rem;
+    padding: 25% 0;
+    font-size: 5rem;
+    color: white;
 
 }
 
@@ -75,81 +89,106 @@ p {
 
 /*committee-discription*/
 
+#Committee-Discription {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 .main {
     width: 50%;
     height: 50%;
-    margin:7% 25% 3%;
+    margin: 7% 25% 6%;
 }
 
 .text {
-    padding:5% 8% 10%;
+    padding: 5% 8% 10%;
 }
+
 .title {
     text-align: center;
     font-size: 3rem;
-    padding-bottom: 5%;
-    
+    padding-bottom: 8%;
+
 }
 
-.discription{
-    font-size:1.3rem;
-    line-height:1;
-   
+.discription {
+    font-size: 1.3rem;
+    line-height: 1;
+
 }
 
 /*events*/
-#event{
+#event {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     background-color: #868f96;
-    color:white;
+    color: white;
 }
 
-.committee-events{
+.committee-event-title {
+    padding: 4% 0 0;
+}
+
+.committee-events {
     text-align: center;
-    padding:5% 0;
-    
+    padding: 5% 0;
+
 }
 
-.events{
+.events {
     text-align: center;
-    padding:3% 10% 15%;
-    height:400px;
+    padding: 3% 10% 15%;
+    height: 400px;
 }
 
-.event-title{
-    padding:5% 0;
-    font-size:2.3rem;
+.event-title {
+    padding: 5% 0;
+    font-size: 2.3rem;
 }
 
-.event-text{
+.event-text {
     text-align: right;
-    padding:0 2%;
-    font-size:1.3rem
+    padding: 0 2%;
+    font-size: 1.3rem
 }
 
-.informal{
+.informal {
     text-align: center;
 
-    padding:3% 0 5% 0;
-    font-size:2.1rem;
+    padding: 3% 0 5% 0;
+    font-size: 2.1rem;
 }
 
 /*footer*/
 
+#footer {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 
 .bottom {
-    padding:15% 10%;
+    padding: 15% 10%;
     text-align: center;
-    font-size :2rem;
+    font-size: 2rem;
     line-height: 1;
 }
 
 
 /*social-media*/
-#social-media{
+#social-media {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     background-color: #868f96;
-    color:white;
+    color: white;
 }
 
 .bottom-container {
@@ -158,20 +197,21 @@ p {
     font-size: 20px;
 }
 
-.icon{
+.icon {
     text-align: center;
-     margin: 3px 5px 0;
+    margin: 3px 5px 0;
     width: 5%;
     height: 5%;
- }
+}
 
-.copyright{
-    margin:0 40.5% 6%;
-    font-size:0.9rem;
+.copyright {
+    margin: 0 40.5% 6%;
+    font-size: 0.9rem;
 }
 
 
-@media (max-width: 1200px ){
+@media (max-width: 1200px) {
+    
     .writeup {
         font-size: 2rem
     }
@@ -179,54 +219,59 @@ p {
     .fest-name {
         font-size: 2.5rem;
     }
-    .main{
+
+    .main {
         position: relative;
-        right:15.375%;
-        width:80%;
-        height:80%;
+        right: 15.375%;
+        width: 80%;
+        height: 80%;
     }
-    .title{
-       font-size:1.9rem;
-       
-}
-    .discription{
-        font-size:1.1rem;
+
+    .title {
+        font-size: 1.9rem;
+
     }
-    
-    .events{  
-        padding:14% 10%;   
+
+    .discription {
+        font-size: 1.1rem;
     }
-    
-    .event-title{
-        font-size:1.3rem;
+
+    .committee-event-title {
+        font-size:2rem;
+        padding: 12% 0 0;
     }
-    
-    .event-text{
-        font-size:0.91rem;
+
+    .events {
+        padding: 12% 10%;
     }
-    
-    .informal{
-        font-size:1.4rem;
+
+    .event-title {
+        font-size: 1.3rem;
+    }
+
+    .event-text {
+        font-size: 0.91rem;
+    }
+
+    .informal {
+        font-size: 1.4rem;
         text-align: center;
-         padding:5% 0 8%;
+        padding: 5% 0 8%;
     }
-    
-    .bottom{
-        font-size:1.2rem;
-        padding:25% 6%;
+
+    .bottom {
+        font-size: 1.2rem;
+        padding: 25% 6%;
         line-height: 1;
     }
-    
-    .bottom-container{
+
+    .bottom-container {
         padding: 12% 0;
     }
-    
-    .copyright{
-    margin:0 26.3% 6%;
-    font-size:0.8rem;
-}
+
+    .copyright {
+        margin: 0 0 6%;
+        font-size: 0.8rem;
+    }
 
 }
-
-    
-    
