@@ -6,6 +6,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+
 }
 
 p {
@@ -211,44 +212,6 @@ p {
 
 @media (max-width: 1200px) {
     
-    #home {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-
-}
-    
-    #Committee-Discription {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
-
-    #event {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    background-color: #868f96;
-    color: white;
-}
-    #footer {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
-    #social-media {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    background-color: #868f96;
-    color: white;
-}
-
     .writeup {
         font-size: 2rem
     }
@@ -307,7 +270,7 @@ p {
     }
 
     .copyright {
-        margin: 0 20% 6%;
+        margin: 0 0 6%;
         font-size: 0.8rem;
     }
 
